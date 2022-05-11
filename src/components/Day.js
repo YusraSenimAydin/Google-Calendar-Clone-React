@@ -10,7 +10,7 @@ export default function Day({day , rowIdx}) {
         }
 
   return (
-    <div className="boder border-gray-200 flex flex-column">
+    <div className="border border-gray-200 flex flex-column">
       <header className="flex flex-col items-center">
       {rowIdx === 0 && (
           <p className="text-sm mt-1">
