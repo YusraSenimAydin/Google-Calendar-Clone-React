@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import CreateEventButton from "./CreateEventButton";
 
 export default function Sidebar() {
   return (
-    <div>Sidebar</div>
-  )
+    <aside className="border p-5 w-64">
+      <CreateEventButton />
+     
+    </aside>
+  );
 }

@@ -16,7 +16,7 @@ function App() {
   },[monthIndex])
   return (
     <React.Fragment>
-      <div className="h-screen flex flex-columns">
+      <div className="h-screen flex flex-col">
      <CalendarHeader />
      <div className="flex flex-1">
        <Sidebar />
